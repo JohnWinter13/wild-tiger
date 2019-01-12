@@ -1,9 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram, faPinterest, faTwitter, faFacebookF } from '@fortawesome/free-brands-svg-icons'
-import { faMapMarkerAlt, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { FaInstagram, FaPinterest, FaTwitter, FaFacebookF, FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa';
 
 const SocialLink = styled.a`
   color: #FFF;
@@ -44,18 +42,18 @@ const SocialContainer = styled.div`
 const Footer = () => (
   <Foot>
     <div style={{textAlign: 'right'}}>
-      <SocialLink href="#"> <FontAwesomeIcon icon={faMapMarkerAlt} /></SocialLink>
+      <SocialLink href="#"> <FaMapMarkerAlt/> </SocialLink>
       <Text>1825 SE 164th Ave #101, Vancouver, WA 98683, USA</Text>
       <br/>
-      <SocialLink href="#"> <FontAwesomeIcon icon={faPhone} /></SocialLink>
+      <SocialLink href="#"> <FaPhone/> </SocialLink>
       <Text>+1 360-882-8887</Text>
     </div>
     <SocialContainer>
-      <SocialLink href="#"> <FontAwesomeIcon icon={faInstagram} /></SocialLink>
-      <SocialLink href="#"> <FontAwesomeIcon icon={faPinterest} /></SocialLink>
-      <SocialLink href="#"> <FontAwesomeIcon icon={faTwitter} /></SocialLink>
-      <SocialLink href="#"> <FontAwesomeIcon icon={faFacebookF} /></SocialLink>
-      <SocialLink href="#"> <FontAwesomeIcon icon={faEnvelope} /></SocialLink>
+      <SocialLink href="#"> <FaInstagram/> </SocialLink>
+      <SocialLink href="#"> <FaPinterest/> </SocialLink>
+      <SocialLink href="#"> <FaTwitter/> </SocialLink>
+      <SocialLink href="#"> <FaFacebookF/> </SocialLink>
+      <SocialLink href="#"> <FaEnvelope/> </SocialLink>
     </SocialContainer>
   </Foot>
 )
