@@ -1,21 +1,36 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link, graphql } from 'gatsby'
+import Img from "gatsby-image"
 
 import Layout from '../components/layout'
-import Image from '../components/image'
 import SEO from '../components/seo'
+import Button from '../components/button'
 
-const IndexPage = () => (
+import '../components/fonts.css'
+
+const IndexPage = ({data}) => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <Img style={{ position: "absolute", left: 0, top: 0, width: "100%", height: "100%", zIndex: "-1"}} fixed={data.file.childImageSharp.fixed}/>
+    <div style={{textAlign: 'center', marginTop: '20%'}}>
+      <h1 style={{fontFamily: 'Pacifico',  color: '#FFF'}}> Welcome! </h1>
+      <h2 style={{color: '#FFF'}}>We are bringing new Thai dishes, made with the freshest ingredients, to the South East of Vancouver, WA. </h2>
+      <Link to="/"><Button primary>Menu</Button></Link>
+      <Button>Reservations</Button>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
+
+export const imgQuery = graphql`
+  query {
+    file(relativePath: { eq: "welcome.jpg" }) { 
+      childImageSharp {
+        fixed(width: 1920) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+  }
+`
 
 export default IndexPage
