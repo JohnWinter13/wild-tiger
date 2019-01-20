@@ -2,7 +2,7 @@ import { Link } from 'gatsby'
 import React from 'react'
 import styled from 'styled-components'
 
-import { MdMenu } from 'react-icons/md'
+import './fonts.css'
 
 const Head = styled.div`
   background: rgba(0, 0, 0, 0.6);
@@ -11,7 +11,7 @@ const Head = styled.div`
   padding: 1.45rem 1.0875rem;
 
   @media (max-width: 1080px) {
-    padding: 15px 0;
+    padding: 30px 0;
   }
 `
 
@@ -20,6 +20,7 @@ const Text = styled.h3`
   display: inline;
   text-align: right;
   margin: 15px;
+  cursor: pointer;
 
   :hover {
     color: #D79922;
@@ -48,31 +49,23 @@ const MenuContainer = styled.div`
     display: none;
   }
 `
-const MenuIcon = styled.div`
-  color: #FFF;
-  display: inline;
-  cursor: pointer;
-  float: left;
-  margin: 10px;
-  padding-left: 10px;   
-`
 
 const H1 = styled.h1`
-  @media (max-width: 1080px) {
-    margin-right: 20px;
-  }
+  font-family: Rancho;
+  font-size: 60px;
+
 
   @media (min-width: 1080px) {
     display: inline;
   }
 `
 const Title = () => (
-  <H1>
+  <H1 className='font-effect-fire'>
     <Link
       to="/"
       style={{
         opacity: '1',
-        color: `white`,
+        color: `#222`,
         textDecoration: `none`,
       }}
     >
@@ -83,10 +76,9 @@ const Title = () => (
 
 const Header = () => (
   <Head>
-    <MenuContainer>
-      <MenuIcon><MdMenu size={24}/></MenuIcon>
-      <Title/>
-    </MenuContainer>
+    <MenuContainer>        
+      <Title/>       
+    </MenuContainer>       
     <NavContainer>
       <Title/>
       <NavLinkContainer>
