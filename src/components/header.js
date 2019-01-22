@@ -11,7 +11,7 @@ const Head = styled.div`
   padding: 1.45rem 1.0875rem;
 
   @media (max-width: 1080px) {
-    padding: 30px 0;
+    padding: 10px 0 5px 0;
   }
 `
 
@@ -83,7 +83,7 @@ const Header = () => (
       <Title/>
       <NavLinkContainer>
         <NavLink link="/" text="Home"/>
-        <NavLink link="/" text="Menu"/>
+        <NavLink link="/menu" text="Menu"/>
         <NavLink link="/" text="Reservations"/>
         <NavLink link="/" text="Contact Us"/>
         <NavLink link="/" text="About Us"/>
