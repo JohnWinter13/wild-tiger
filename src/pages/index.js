@@ -9,7 +9,7 @@ import Button from '../components/button'
 import '../components/fonts.css'
 
 const IndexPage = ({data}) => (
-  <Layout>
+  <Layout noFooter={true}>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <Img style={{ position: "absolute", left: 0, top: 0, width: "100%", height: "100%", zIndex: "-1"}} fixed={data.file.childImageSharp.fixed}/>
     <div style={{textAlign: 'center', marginTop: '20%'}}>

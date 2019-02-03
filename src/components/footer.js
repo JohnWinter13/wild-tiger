@@ -20,7 +20,7 @@ const Text = styled.h6`
 `
 
 const Foot = styled.footer`
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;

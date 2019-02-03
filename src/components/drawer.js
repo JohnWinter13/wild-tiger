@@ -34,7 +34,7 @@ const Drawer = () => (
     <Menu>
       <img src={TigerLogo} alt="Logo"></img>
       <MenuItem text="Home" link="/"/>
-      <MenuItem text="Menu" link="/"/>
+      <MenuItem text="Menu" link="/menu"/>
       <MenuItem text="Reservations" link="/"/>
       <MenuItem text="Contact Us" link="/"/>
       <MenuItem text="About Us" link="/"/>

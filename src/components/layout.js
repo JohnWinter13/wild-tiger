@@ -8,7 +8,7 @@ import Drawer from './drawer'
 
 import './layout.css'
 
-const Layout = ({ children }) => (
+const Layout = ({ children, noFooter }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -21,7 +21,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Drawer></Drawer>
+        <Drawer/>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
           style={{
@@ -32,8 +32,8 @@ const Layout = ({ children }) => (
           }}
         >
           {children}
-        <Footer/>
         </div>
+        {!noFooter && <Footer/>}  
       </>
     )}
   />
