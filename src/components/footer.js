@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { FaInstagram, FaPinterest, FaTwitter, FaFacebookF, FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaPhone } from 'react-icons/fa'
+import Socials from '../components/socials'
 
 const SocialLink = styled.a`
   color: #FFF;
@@ -49,11 +50,7 @@ const Footer = () => (
       <Text>+1 360-882-8887</Text>
     </div>
     <SocialContainer>
-      <SocialLink href="#"> <FaInstagram/> </SocialLink>
-      <SocialLink href="#"> <FaPinterest/> </SocialLink>
-      <SocialLink href="#"> <FaTwitter/> </SocialLink>
-      <SocialLink href="#"> <FaFacebookF/> </SocialLink>
-      <SocialLink href="#"> <FaEnvelope/> </SocialLink>
+      <Socials/>
     </SocialContainer>
   </Foot>
 )

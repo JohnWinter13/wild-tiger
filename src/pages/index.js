@@ -5,6 +5,7 @@ import Img from "gatsby-image"
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Button from '../components/button'
+import Socials from '../components/socials'
 
 import '../components/fonts.css'
 
@@ -17,6 +18,9 @@ const IndexPage = ({data}) => (
       <h2 style={{color: '#FFF'}}>We are bringing new Thai dishes, made with the freshest ingredients, to the South East of Vancouver, WA. </h2>
       <Link to="/"><Button primary>Menu</Button></Link>
       <Button>Reservations</Button>
+      <div style={{margin: '5%'}}>
+        <Socials iconSize={36}/>
+      </div>
     </div>
   </Layout>
 )
