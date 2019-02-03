@@ -7,8 +7,6 @@ import Socials from '../components/socials'
 const SocialLink = styled.a`
   color: #FFF;
   text-decoration: none;
-  margin: 5px;
-  display: inline;
 
   :hover {
     color: #D79922;
