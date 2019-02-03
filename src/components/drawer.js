@@ -3,7 +3,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { slide as Menu } from 'react-burger-menu'
 
-import TigerLogo from '../images/tiger-logo.png'
+import TigerLogo from '../images/tiger_icon.png'
 
 import './drawer.css'
 
