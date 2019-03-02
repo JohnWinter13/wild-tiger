@@ -16,14 +16,9 @@ const FAB = styled.div`
   text-align: center;
   line-height: 70px;
 
-  position: fixed;
+  position: absolute;
   right: 50px;
   bottom: 70px;
-
-  @media (max-width: 800px) {
-    right: 30px;
-    bottom: 130px;
-  }
 
   :hover {
     box-shadow: 0 6px 14px 0 #666;
