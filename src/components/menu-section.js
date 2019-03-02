@@ -2,8 +2,11 @@ import React from 'react'
 import styled from 'styled-components'
 
 import Fab from './fab'
+import FoodCard from './food-card'
 
 import { FaUtensils } from 'react-icons/fa'
+
+import FoodList from "../data/menu.json"
 
 import './fonts.css'
 
@@ -16,12 +19,6 @@ const Title = styled.h1`
 const Card = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  border-radius: 5px;
-  cursor: pointer;
-
-  :hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
 `
 
 const Icon = styled.div`
@@ -34,15 +31,28 @@ const Icon = styled.div`
   margin: 15px;
 `
 
+const Grid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+`
+
+const Category = ({category}) => (
+  <div style={{padding: '2px 16px'}}>
+    <Icon><FaUtensils size={42} style={{paddingTop: '5px'}}/></Icon>
+    <Title>{category}</Title>
+    <hr/>
+    <Grid>
+      {FoodList.filter(foodItem => foodItem.category === category).map(foodItem => <FoodCard title={foodItem.name} desc={foodItem.description}/>)}
+    </Grid>
+  </div>
+)
+
+const Categories = ['Appetizers', 'Soups', 'Salads', 'Stir Fried', 'Curries', 'Noodles', 'Noodle Soups', 'Fried Rice', 'House Specials']
+
 const MenuSection = () => (
   <Card>
     <Fab/>
-    <div style={{padding: '2px 16px'}}>
-      <Icon><FaUtensils size={42} style={{paddingTop: '5px'}}/></Icon>
-      <Title>Appetizers</Title>
-      <br/>
-      <br/>
-    </div>
+    {Categories.map(cat => <Category category={cat}/>)}
   </Card>
 )
 
