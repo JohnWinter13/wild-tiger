@@ -6,7 +6,6 @@ import './fonts.css'
 
 const Head = styled.div`
   background: rgba(0, 0, 0, 0.6);
-  marginBottom: 1.45rem;
   margin: 0 auto;
   padding: 1.45rem 1.0875rem;
 
