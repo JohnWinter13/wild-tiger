@@ -13,9 +13,11 @@ const IndexPage = ({data}) => (
   <Layout noFooter={true}>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <Img style={{ position: "absolute", left: 0, top: 0, width: "100%", height: "100%", zIndex: "-1"}} fixed={data.file.childImageSharp.fixed}/>
-    <div style={{textAlign: 'center', marginTop: '20%'}}>
+    <div style={{textAlign: 'center', margin: '15% 0'}}>
       <h1 style={{fontFamily: 'Pacifico',  color: '#FFF'}}> Welcome! </h1>
-      <h2 style={{color: '#FFF'}}>We are bringing new Thai dishes, made with the freshest ingredients, to the South East of Vancouver, WA. </h2>
+      <div style={{margin: '0 15%'}}>
+        <h2 style={{color: '#FFF'}}>We are bringing new Thai dishes, made with the freshest ingredients, to the South East of Vancouver, WA. </h2>
+      </div>
       <Link to="/"><Button primary>Menu</Button></Link>
       <Button>Reservations</Button>
       <div style={{margin: '5%'}}>
