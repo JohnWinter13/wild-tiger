@@ -33,7 +33,7 @@ const Icon = styled.div`
 
 const Grid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
 `
 
 const Category = ({category}) => (

@@ -7,7 +7,6 @@ const Card = styled.div`
   transition: 0.3s;
   border-radius: 5px;
   cursor: pointer;
-  min-width: 225px;
   margin: 15px;
 
   :hover {
@@ -17,7 +16,7 @@ const Card = styled.div`
 
 const FoodCard = ({title, desc}) => (
   <Card>
-    <img src={Image} alt="Avatar" style={{width: '100%', height: '200px', borderRadius: '5px 5px 0 0'}}/>
+    <img src={Image} alt="Food" style={{width: '100%', height: '200px', borderRadius: '5px 5px 0 0'}}/>
     <div style={{padding: '2px 16px'}}>
       <h4><b>{title}</b></h4>
       <p>{desc}</p>

@@ -26,7 +26,7 @@ const Layout = ({ children, noFooter }) => (
         <div
           style={{
             margin: `0 auto`,
-            maxWidth: 1080,
+            maxWidth: 1300,
             padding: `0px 1.0875rem 1.45rem`,
             paddingTop: 0,
           }}
