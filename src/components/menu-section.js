@@ -47,12 +47,12 @@ const Category = ({category, foodImgData}) => (
           const imgData = foodImgData.find(img => img.node.relativePath === foodItem.img)
           if (imgData) {
             return (
-              <FoodCard title={foodItem.name} desc={foodItem.description} price={foodItem.price} img={imgData.node.childImageSharp.sizes} />
+              <FoodCard title={foodItem.name} desc={foodItem.description} price={foodItem.price} spice={foodItem.spice} img={imgData.node.childImageSharp.sizes} />
             )
           }
           else {
             return (
-              <FoodCard title={foodItem.name} desc={foodItem.description} price={foodItem.price}/>
+              <FoodCard title={foodItem.name} desc={foodItem.description} spice={foodItem.spice} price={foodItem.price}/>
             )
           }
         })
