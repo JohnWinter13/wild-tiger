@@ -3,7 +3,7 @@
       "name": "Crispy Egg Rolls",
       "category": "Appetizers",
       "description": "Silver noodle, taro, cabbage and carrot served with sweet & sour plum sauce.",
-      "price": "$4.50",
+      "price": "4.50",
       "img": "food/eggrolls.jpg"
     },
 
@@ -11,7 +11,7 @@
         "name": "Crispy Tofu",
         "category": "Appetizers",
         "description": "Crispy Japanese tofu served with sweet chili sauce and peanut.",
-        "price": "$4.50",
+        "price": "4.50",
         "spice": "0",
         "img": "food/tofu.jpg"
     },
@@ -20,7 +20,7 @@
         "name": "Fresh Rolls",
         "category": "Appetizers",
         "description": "Bean sprouts, lettuce, cilantro and soft rice noodle wrapped in fresh rice paper served with homemade peanut dipping sauce.",
-        "price": "Tofu $4.50/ Shrimp $6",
+        "price": "4.50-6.00",
         "spice": "0",
         "img": "food/freshrolls.jpg"
     },
@@ -29,7 +29,7 @@
         "name": "Crab Puffs",
         "category": "Appetizers",
         "description": "Crispy wonton filled with imitation crab meat and cream cheese served with sweet & sour plum sauce.",
-        "price": "$6.50",
+        "price": "6.50",
         "spice": "0",
         "img": "food/crabpuffs.jpg"
     },
@@ -38,7 +38,7 @@
         "name": "Coconut Prawn",
         "category": "Appetizers",
         "description": "Crispy prawns with coconut shaving served with plum sauce.",
-        "price": "$7.50",
+        "price": "7.50",
         "spice": "0",
         "img": "food/coconutprawn.jpg"
     },
@@ -47,7 +47,7 @@
         "name": "Wild Tiger Wings",
         "category": "Appetizers",
         "description": "Marinated chicken wing, lightly breaded and fried until golden and crispy.",
-        "price": "$8.50",
+        "price": "8.50",
         "spice": "0",
         "img": "food/wildwings.jpg"
     },
@@ -56,7 +56,7 @@
         "name": "Satay Chicken",
         "category": "Appetizers",
         "description": "Grilled marinated chicken skewers served with peanut sauce and cucumber sauce.",
-        "price": "$8.50",
+        "price": "8.50",
         "spice": "0",
         "img": "food/sataychicken.jpg"
     },
@@ -65,7 +65,7 @@
         "name": "Pot Sticker",
         "category": "Appetizers",
         "description": "Fried pork and cabbage dumpling served with ginger soy dipping sauce.",
-        "price": "$6",
+        "price": "6.00",
         "spice": "0",
         "img": "food/potsticker.jpg"
     },
@@ -74,7 +74,7 @@
         "name": "Golden Triangle",
         "category": "Appetizers",
         "description": "Ground chicken and shrimp wrapped in a flour tortilla & deep fried.",
-        "price": "$8.50",
+        "price": "8.50",
         "spice": "0",
         "img": "food/goldentriangle.jpg"
     },
@@ -83,7 +83,7 @@
         "name": "Steam Mussels",
         "category": "Appetizers",
         "description": "Steam blue mussels with aromatic lemongrass and set in basil broth.",
-        "price": "$9",
+        "price": "9.00",
         "spice": "0",
         "img": "food/steamedmussels.jpg"
     },
@@ -92,7 +92,7 @@
         "name": "Crispy Calamari",
         "category": "Appetizers",
         "description": "Crispy calamari served with Siracha cream sauce.",
-        "price": "$10",
+        "price": "10.00",
         "spice": "0",
         "img": "food/calamari.jpg"
     },
@@ -119,7 +119,7 @@
         "name": "Shrimp Wonton Soup",
         "category": "Soups",
         "description": "Shrimp wonton, shrimp, lettuce and bean sprout in clear broth soup.",
-        "price": "$8",
+        "price": "8.00",
         "spice": "0",
         "img": "food/wonton.jpg"
     },
@@ -128,7 +128,7 @@
         "name": "House Salad",
         "category": "Salads",
         "description": "Crispy tofu, hardboiled egg, lettuce, cucumber, grape tomato, red onion and cilantro served with curry peanut sweet and sour sauce.",
-        "price": "$7",
+        "price": "7.00",
         "spice": "0",
         "img": "food/housesalad.jpg"
     },
@@ -137,7 +137,7 @@
         "name": "Papaya Salad",
         "category": "Salads",
         "description": "Shredded green papaya, Thai chili, green bean, tomato and peanut with spicy lime dressing.",
-        "price": "$8",
+        "price": "8.00",
         "spice": "0",
         "img": "food/papayasalad.jpg"
     },
@@ -146,7 +146,7 @@
         "name": "Glass Noodle Salad",
         "category": "Salads",
         "description": "Steam glass noodle, ground chicken, shrimp, squid, onion, red onion, mint, cilantro tossed with chili lime juice and sweet chili paste.",
-        "price": "$12.95",
+        "price": "12.95",
         "spice": "0",
         "img": "food/glassnoodle.jpg"
     },
@@ -155,7 +155,7 @@
         "name": "Larb",
         "category": "Salads",
         "description": "Ground chicken roosted rice powder, red onion, mints, cilantro, tossed with chili lime juice.",
-        "price": "$11.95",
+        "price": "11.95",
         "spice": "0",
         "img": "food/larb.jpg"
     },
@@ -164,7 +164,7 @@
         "name": "Beef Salad",
         "category": "Salads",
         "description": "Grilled beef sirloin, tomato, cucumber, red onion, bell pepper, mints and cilantro with spicy lime dressing.",
-        "price": "$12",
+        "price": "12.00",
         "spice": "0",
         "img": "food/beefsalad.jpg"
     },
@@ -335,7 +335,7 @@
         "name": "Tom Yum Noodle Soup",
         "category": "Noodle Soups",
         "description": "Rice noodle or egg noodle with ground chicken, squid, shrimp, and mussle, bean sprout topped with chopped peanuts.",
-        "price": "$12.95",
+        "price": "12.95",
         "spice": "2",
         "img": "food/tomyumnoodles.jpg"
     },
@@ -344,7 +344,7 @@
         "name": "Clear Broth Noodle Soup",
         "category": "Noodle Soups",
         "description": "Clear broth small rice noodle soup with bean sprout, cilantro and green onion.",
-        "price": "Chicken or tofu $11, Beef $12",
+        "price": "11.00-12.00",
         "spice": "0",
         "img": "food/clearbroth.jpg"
     },
@@ -353,7 +353,7 @@
         "name": "Khao Soi",
         "category": "Noodle Soups",
         "description": "Egg noodle, shallot, cilantro in curry soup topped with crispy egg noodle.",
-        "price": "Chicken or tofu $11, Beef $12",
+        "price": "11.00-12.00",
         "spice": "1",
         "img": "food/khaosoi.jpg"
     },
@@ -389,7 +389,7 @@
         "name": "Panang Curry Jumbo Prawn",
         "category": "House Specials",
         "description": "Grilled jumbo prawn topped with panang curry, bell pepper, green bean and asparagus.",
-        "price": "$17",
+        "price": "17.00",
         "spice": "2",
         "img": "food/panangcurryprawn.jpg"
     },
@@ -398,7 +398,7 @@
         "name": "Volcano Beef",
         "category": "House Specials",
         "description": "Stir fried beef sirloin, tomato, onion, asparagus, bell pepper, pineapple, grape tomato in house specials sauce.",
-        "price": "$16",
+        "price": "16.00",
         "spice": "0",
         "img": "food/volcanobeef.jpg"
     },
@@ -407,7 +407,7 @@
         "name": "Three Flavors Salmon",
         "category": "House Specials",
         "description": "Pan fried sockeye salmon, topped with three flavor dressing, green bean, onion and bell pepper topped with crispy basil.",
-        "price": "$15",
+        "price": "15.00",
         "spice": "0",
         "img": "food/salmon.jpg"
     },
@@ -416,7 +416,7 @@
         "name": "Terriyaki Chicken",
         "category": "House Specials",
         "description": "Charcoal boiled chicken served with steamed vegtable and rice.",
-        "price": "$13",
+        "price": "13.00",
         "spice": "0",
         "img": "food/teriyakichicken.jpg"
     },
@@ -425,7 +425,7 @@
         "name": "Crispy Duck Curry",
         "category": "House Specials",
         "description": "Red curry with half roasted duck, pineapple, bell pepper, grape tomatoes, lychee and basil.",
-        "price": "$21",
+        "price": "21.00",
         "spice": "2",
         "img": "food/duckcurry.jpg"
     },
@@ -434,7 +434,7 @@
         "name": "Pumpkin Curry",
         "category": "House Specials",
         "description": "Golden pumpkin, lychee, bell pepper and basil inred curry sauce.",
-        "price": "Chicken, Pork, Beef or Tofu $13, Grilled shrimp $17",
+        "price": "13.00-17.00",
         "spice": "2",
         "img": "food/pumpkincurry.jpg"
     },
@@ -443,7 +443,7 @@
         "name": "Dungeness Crab Fried Rice",
         "category": "House Specials",
         "description": "Crab meat, jasmine rice, egg, onion, peas-carrots and grape tomato.",
-        "price": "$16",
+        "price": "16.00",
         "spice": "0",
         "img": "food/dungnesscrab.jpg"
     },
@@ -451,8 +451,8 @@
     {
         "name": "Lemongrass Chicken",
         "category": "House Specials",
-        "description": "(Add $1 for pad thai) Grilled marinated lemongrass chicken with steamed vegetable and topped with peanut sauce.",
-        "price": "$13",
+        "description": "(Add 1 for pad thai) Grilled marinated lemongrass chicken with steamed vegetable and topped with peanut sauce.",
+        "price": "13.00",
         "spice": "0",
         "img": "food/lemongrass.jpg"
     }
