@@ -36,23 +36,37 @@ const Grid = styled.div`
   grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
 `
 
-const Category = ({category}) => (
+const Category = ({category, foodImgData}) => (
   <div style={{padding: '2px 16px'}}>
     <Icon><FaUtensils size={42} style={{paddingTop: '5px'}}/></Icon>
     <Title>{category}</Title>
     <hr/>
     <Grid>
-      {FoodList.filter(foodItem => foodItem.category === category).map(foodItem => <FoodCard title={foodItem.name} desc={foodItem.description}/>)}
+      {FoodList.filter(foodItem => foodItem.category === category)
+        .map(foodItem => {
+          const imgData = foodImgData.find(img => img.node.relativePath === foodItem.img)
+          if (imgData) {
+            return (
+              <FoodCard title={foodItem.name} desc={foodItem.description} img={imgData.node.childImageSharp.sizes} />
+            )
+          }
+          else {
+            return (
+              <FoodCard title={foodItem.name} desc={foodItem.description}/>
+            )
+          }
+        })
+      }
     </Grid>
   </div>
 )
 
 const Categories = ['Appetizers', 'Soups', 'Salads', 'Stir Fried', 'Curries', 'Noodles', 'Noodle Soups', 'Fried Rice', 'House Specials']
 
-const MenuSection = () => (
+const MenuSection = ({foodImgData}) => (
   <Card>
     <Fab/>
-    {Categories.map(cat => <Category category={cat}/>)}
+    {Categories.map(cat => <Category category={cat} foodImgData={foodImgData}/>)}
   </Card>
 )
 

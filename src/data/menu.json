@@ -4,7 +4,7 @@
       "category": "Appetizers",
       "description": "Silver noodle, taro, cabbage and carrot served with sweet & sour plum sauce.",
       "price": "$4.50",
-      "img": ""
+      "img": "food/eggrolls.jpg"
     },
 
     {
@@ -13,7 +13,7 @@
         "description": "Crispy Japanese tofu served with sweet chili sauce and peanut.",
         "price": "$4.50",
         "spice": "0",
-        "img": ""
+        "img": "food/tofu.jpg"
     },
     
     {
@@ -22,7 +22,7 @@
         "description": "Bean sprouts, lettuce, cilantro and soft rice noodle wrapped in fresh rice paper served with homemade peanut dipping sauce.",
         "price": "Tofu $4.50/ Shrimp $6",
         "spice": "0",
-        "img": ""
+        "img": "food/freshrolls.jpg"
     },
 
     {
@@ -31,7 +31,7 @@
         "description": "Crispy wonton filled with imitation crab meat and cream cheese served with sweet & sour plum sauce.",
         "price": "$6.50",
         "spice": "0",
-        "img": ""
+        "img": "food/crabpuffs.jpg"
     },
 
     {
@@ -40,7 +40,7 @@
         "description": "Crispy prawns with coconut shaving served with plum sauce.",
         "price": "$7.50",
         "spice": "0",
-        "img": ""
+        "img": "food/coconutprawn.jpg"
     },
 
     {
@@ -49,7 +49,7 @@
         "description": "Marinated chicken wing, lightly breaded and fried until golden and crispy.",
         "price": "$8.50",
         "spice": "0",
-        "img": ""
+        "img": "food/wildwings.jpg"
     },
 
     {
@@ -58,7 +58,7 @@
         "description": "Grilled marinated chicken skewers served with peanut sauce and cucumber sauce.",
         "price": "$8.50",
         "spice": "0",
-        "img": ""
+        "img": "food/sataychicken.jpg"
     },
 
     {
@@ -67,16 +67,16 @@
         "description": "Fried pork and cabbage dumpling served with ginger soy dipping sauce.",
         "price": "$6",
         "spice": "0",
-        "img": ""
+        "img": "food/potsticker.jpg"
     },
 
     {
         "name": "Golden Triangle",
         "category": "Appetizers",
-        "description": "Ground chicken and shrimp wrapped in a flour trailla deep-fried.",
+        "description": "Ground chicken and shrimp wrapped in a flour tortilla & deep fried.",
         "price": "$8.50",
         "spice": "0",
-        "img": ""
+        "img": "food/goldentriangle.jpg"
     },
 
     {
@@ -85,7 +85,7 @@
         "description": "Steam blue mussels with aromatic lemongrass and set in basil broth.",
         "price": "$9",
         "spice": "0",
-        "img": ""
+        "img": "food/steamedmussels.jpg"
     },
 
     {
@@ -94,7 +94,7 @@
         "description": "Crispy calamari served with Siracha cream sauce.",
         "price": "$10",
         "spice": "0",
-        "img": ""
+        "img": "food/calamari.jpg"
     },
 
     {
@@ -103,7 +103,7 @@
         "description": "Spicy lemongrass broth soup with kaffir, tomato, mushroom, onion and lime juice.",
         "price": "",
         "spice": "2",
-        "img": ""
+        "img": "food/tomyum.jpg"
     },
 
     {
@@ -112,7 +112,7 @@
         "description": "Galangal, lemongrass, kaffir leaves, mushroom, cabbage, lime juice and coconut milk.",
         "price": "",
         "spice": "0",
-        "img": ""
+        "img": "food/tomkha.jpg"
     },
 
     {
@@ -121,7 +121,7 @@
         "description": "Shrimp wonton, shrimp, lettuce and bean sprout in clear broth soup.",
         "price": "$8",
         "spice": "0",
-        "img": ""
+        "img": "food/wonton.jpg"
     },
 
     {
@@ -130,7 +130,7 @@
         "description": "Crispy tofu, hardboiled egg, lettuce, cucumber, grape tomato, red onion and cilantro served with curry peanut sweet and sour sauce.",
         "price": "$7",
         "spice": "0",
-        "img": ""
+        "img": "food/housesalad.jpg"
     },
 
     {
@@ -139,7 +139,7 @@
         "description": "Shredded green papaya, Thai chili, green bean, tomato and peanut with spicy lime dressing.",
         "price": "$8",
         "spice": "0",
-        "img": ""
+        "img": "food/papayasalad.jpg"
     },
 
     {
@@ -148,7 +148,7 @@
         "description": "Steam glass noodle, ground chicken, shrimp, squid, onion, red onion, mint, cilantro tossed with chili lime juice and sweet chili paste.",
         "price": "$12.95",
         "spice": "0",
-        "img": ""
+        "img": "food/glassnoodle.jpg"
     },
 
     {
@@ -157,7 +157,7 @@
         "description": "Ground chicken roosted rice powder, red onion, mints, cilantro, tossed with chili lime juice.",
         "price": "$11.95",
         "spice": "0",
-        "img": ""
+        "img": "food/larb.jpg"
     },
 
     {
@@ -166,7 +166,7 @@
         "description": "Grilled beef sirloin, tomato, cucumber, red onion, bell pepper, mints and cilantro with spicy lime dressing.",
         "price": "$12",
         "spice": "0",
-        "img": ""
+        "img": "food/beefsalad.jpg"
     },
 
     {
@@ -175,7 +175,7 @@
         "description": "Onion, celery, bell pepper, carrot, and cashew nut in roasted sweet chili sauce.",
         "price": "",
         "spice": "0",
-        "img": ""
+        "img": "food/friedcashew.jpg"
     },
 
     {
@@ -184,7 +184,7 @@
         "description": "Fresh ginger, mushroom, onion, carrot, and bell pepper.",
         "price": "",
         "spice": "0",
-        "img": ""
+        "img": "food/friedginger.jpg"
     },
 
     {
@@ -193,7 +193,7 @@
         "description": "Sautéed roasted garlic, onion, mushroom, and cilantro in black pepper sauce over a bed of broccoli.",
         "price": "",
         "spice": "0",
-        "img": ""
+        "img": "food/friedgarlic.jpg"
     },
 
     {
@@ -202,7 +202,7 @@
         "description": "Stir-fried mixed vegetables in a work with garlic soy sauce.",
         "price": "",
         "spice": "0",
-        "img": ""
+        "img": "food/friedvegs.jpg"
     },
 
     {
@@ -211,7 +211,7 @@
         "description": "Steamed mixed vegetables topped with house peanut sauce.",
         "price": "",
         "spice": "0",
-        "img": ""
+        "img": "food/praram.jpg"
     },
 
     {
@@ -220,7 +220,7 @@
         "description": "Stir-fried ground chicken with bell peppers, green bean, onion and basil.",
         "price": "",
         "spice": "0",
-        "img": ""
+        "img": "food/friedbasil.jpg"
     },
 
     {
@@ -229,7 +229,7 @@
         "description": "Onion, bell pepper, eggplant, and basil in roasted sweet chili sauce.",
         "price": "",
         "spice": "0",
-        "img": ""
+        "img": "food/friedeggplant.jpg"
     },
 
     {
@@ -238,7 +238,7 @@
         "description": "Red curry with coconut milk, bamboo shoot, bell pepper, and basil.",
         "price": "",
         "spice": "2",
-        "img": ""
+        "img": "food/redcurry.jpg"
     },
 
     {
@@ -247,7 +247,7 @@
         "description": "Green curry with coconut milk, bamboo shoot, bell pepper, eggplant and basil.",
         "price": "",
         "spice": "2",
-        "img": ""
+        "img": "food/greencurry.jpg"
     },
 
     {
@@ -256,7 +256,7 @@
         "description": "Yellow curry with coconut milk, potato, onion, carrot and sprinkled with shallots.",
         "price": "",
         "spice": "1",
-        "img": ""
+        "img": "food/yellowcurry.jpg"
     },
 
     {
@@ -265,7 +265,7 @@
         "description": "Spicy Clear red curry with Thai herbs, fresh vegetables bamboo shoot, mushroom,bell pepper and basil.",
         "price": "",
         "spice": "3",
-        "img": ""
+        "img": "food/junglecurry.jpg"
     },
 
     {
@@ -274,7 +274,7 @@
         "description": "A Panang curry with coconut milk, green bean, and bell peppers topped with ground peanut.",
         "price": "",
         "spice": "2",
-        "img": ""
+        "img": "food/panangcurry.jpg"
     },
 
     {
@@ -283,7 +283,7 @@
         "description": "A mild slow cooked curry made with a blend of spices including nutmeg, cumin and cloves in coconut milk with onion, carrot, potato, and peanuts.",
         "price": "",
         "spice": "1",
-        "img": ""
+        "img": "food/massamancurry.jpg"
     },
 
     {
@@ -292,7 +292,7 @@
         "description": "Stir-fried wide-size rice in tamarind sauce with egg, bean sprout, and green onion served with chopped peanuts.",
         "price": "",
         "spice": "0",
-        "img": ""
+        "img": "food/padthai.jpg"
     },
 
     {
@@ -301,16 +301,16 @@
         "description": "Stir-fried wide-size rice noodle with Thai chili, egg, bell pepper, broccoli, tomato and basil served with raw bean sprout.",
         "price": "",
         "spice": "0",
-        "img": ""
+        "img": "food/drunkennoodle.jpg"
     },
 
     {
-        "name": "Pad SEE-IEW",
+        "name": "Pad See-Iew",
         "category": "Noodles",
         "description": "Stir-fried wide-size rice noodle with egg, carrot, broccoli, and sweet soy sauce.",
         "price": "",
         "spice": "0",
-        "img": ""
+        "img": "food/padsee.jpg"
     },
 
     {
@@ -319,7 +319,7 @@
         "description": "Stir-fried bean thread with mushroom, cabbage, onion, celery, carrot, grape tomato, bean sprout and egg.",
         "price": "",
         "spice": "0",
-        "img": ""
+        "img": "food/padwoonsen.jpg"
     },
 
     {
@@ -328,7 +328,7 @@
         "description": "Stir-fried wide-size rice noodle with egg, cabbage, onion, and bean sprout in house soy sauce.",
         "price": "",
         "spice": "0",
-        "img": ""
+        "img": "food/wildnoodles.jpg"
     },
 
     {
@@ -337,16 +337,7 @@
         "description": "Rice noodle or egg noodle with ground chicken, squid, shrimp, and mussle, bean sprout topped with chopped peanuts.",
         "price": "$12.95",
         "spice": "2",
-        "img": ""
-    },
-
-    {
-        "name": "Tom Yum Noodle Soup",
-        "category": "Noodle Soups",
-        "description": "Rice noodle or egg noodle with ground chicken, squid, shrimp, and mussle, bean sprout topped with chopped peanuts.",
-        "price": "$12.95",
-        "spice": "2",
-        "img": ""
+        "img": "food/tomyumnoodles.jpg"
     },
 
     {
@@ -355,7 +346,7 @@
         "description": "Clear broth small rice noodle soup with bean sprout, cilantro and green onion.",
         "price": "Chicken or tofu $11, Beef $12",
         "spice": "0",
-        "img": ""
+        "img": "food/clearbroth.jpg"
     },
 
     {
@@ -364,7 +355,7 @@
         "description": "Egg noodle, shallot, cilantro in curry soup topped with crispy egg noodle.",
         "price": "Chicken or tofu $11, Beef $12",
         "spice": "1",
-        "img": ""
+        "img": "food/khaosoi.jpg"
     },
 
     {
@@ -373,7 +364,7 @@
         "description": "Stir-fried rice with egg, onion, grape tomato, peas, and carrots.",
         "price": "",
         "spice": "0",
-        "img": ""
+        "img": "food/thairice.jpg"
     },
 
     {
@@ -382,7 +373,7 @@
         "description": "Stir-fried rice with curry powder, egg, pineapple, cashew nut, raisins, onion, grape tomato, pea and carrot.",
         "price": "",
         "spice": "0",
-        "img": ""
+        "img": "food/pineapplerice.jpg"
     },
   
     {
@@ -391,7 +382,7 @@
         "description": "Stir-fried rice with egg, bell pepper, onion, and basil.",
         "price": "",
         "spice": "0",
-        "img": ""
+        "img": "food/basilrice.jpg"
     },
 
     {
@@ -400,7 +391,7 @@
         "description": "Grilled jumbo prawn topped with panang curry, bell pepper, green bean and asparagus.",
         "price": "$17",
         "spice": "2",
-        "img": ""
+        "img": "food/panangcurryprawn.jpg"
     },
 
     {
@@ -409,16 +400,16 @@
         "description": "Stir fried beef sirloin, tomato, onion, asparagus, bell pepper, pineapple, grape tomato in house specials sauce.",
         "price": "$16",
         "spice": "0",
-        "img": ""
+        "img": "food/volcanobeef.jpg"
     },
 
     {
-        "name": "Three flavors Salmon",
+        "name": "Three Flavors Salmon",
         "category": "House Specials",
-        "description": "Pan fried sockeye salmon, topped with three  flavor dressing,green bean, onion and bell pepper topped with crispy basil.",
+        "description": "Pan fried sockeye salmon, topped with three flavor dressing, green bean, onion and bell pepper topped with crispy basil.",
         "price": "$15",
         "spice": "0",
-        "img": ""
+        "img": "food/salmon.jpg"
     },
     
     {
@@ -427,7 +418,7 @@
         "description": "Charcoal boiled chicken served with steamed vegtable and rice.",
         "price": "$13",
         "spice": "0",
-        "img": ""
+        "img": "food/teriyakichicken.jpg"
     },
 
     {
@@ -436,7 +427,7 @@
         "description": "Red curry with half roasted duck, pineapple, bell pepper, grape tomatoes, lychee and basil.",
         "price": "$21",
         "spice": "2",
-        "img": ""
+        "img": "food/duckcurry.jpg"
     },
 
     {
@@ -445,7 +436,7 @@
         "description": "Golden pumpkin, lychee, bell pepper and basil inred curry sauce.",
         "price": "Chicken, Pork, Beef or Tofu $13, Grilled shrimp $17",
         "spice": "2",
-        "img": ""
+        "img": "food/pumpkincurry.jpg"
     },
 
     {
@@ -454,7 +445,7 @@
         "description": "Crab meat, jasmine rice, egg, onion, peas-carrots and grape tomato.",
         "price": "$16",
         "spice": "0",
-        "img": ""
+        "img": "food/dungnesscrab.jpg"
     },
 
     {
@@ -463,6 +454,6 @@
         "description": "(Add $1 for pad thai) Grilled marinated lemongrass chicken with steamed vegetable and topped with peanut sauce.",
         "price": "$13",
         "spice": "0",
-        "img": ""
+        "img": "food/lemongrass.jpg"
     }
 ]

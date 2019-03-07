@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Image from '../images/back.jpg'
+import Img from "gatsby-image"
 
 const Card = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -14,9 +14,9 @@ const Card = styled.div`
   }
 `
 
-const FoodCard = ({title, desc}) => (
+const FoodCard = ({title, desc, img}) => (
   <Card>
-    <img src={Image} alt="Food" style={{width: '100%', height: '200px', borderRadius: '5px 5px 0 0'}}/>
+    {img && <Img sizes={img} alt="Food" style={{width: '100%', height: '200px', borderRadius: '5px 5px 0 0'}}/>}
     <div style={{padding: '2px 16px'}}>
       <h4><b>{title}</b></h4>
       <p>{desc}</p>
