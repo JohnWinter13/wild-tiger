@@ -44,7 +44,6 @@ export const imgQuery = graphql`
       edges {
         node {
           relativePath
-          name
           childImageSharp {
             sizes(quality: 90) {
               ...GatsbyImageSharpSizes

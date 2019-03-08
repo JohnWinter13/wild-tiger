@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Img from 'gatsby-image'
 
 import { FaMoneyBillWave } from 'react-icons/fa'
-import { GiChiliPepper } from 'react-icons/all'
+import { GiChiliPepper } from 'react-icons/gi'
 
 const Card = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);

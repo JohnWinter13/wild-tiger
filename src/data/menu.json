@@ -455,5 +455,402 @@
         "price": "13.00",
         "spice": "0",
         "img": "food/lemongrass.jpg"
+    },
+
+    {
+        "name": "Steam Rice",
+        "category": "Sides",
+        "description": "",
+        "price": "1.50",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Sticky Rice",
+        "category": "Sides",
+        "description": "",
+        "price": "2.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Brown Rice",
+        "category": "Sides",
+        "description": "",
+        "price": "2.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Steamed Vegetables",
+        "category": "Sides",
+        "description": "",
+        "price": "3.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Steamed Noodles",
+        "category": "Sides",
+        "description": "",
+        "price": "3.00",
+        "spice": "0",
+        "img": ""
+    }, 
+
+    {
+        "name": "Steamed Meat",
+        "category": "Sides",
+        "description": "",
+        "price": "3.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Squid or Shrimp",
+        "category": "Sides",
+        "description": "",
+        "price": "4.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Peanut Sauce",
+        "category": "Sides",
+        "description": "",
+        "price": "2.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Soda (Refillable)",
+        "category": "Drinks",
+        "description": "",
+        "price": "2.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Regular Iced Tea",
+        "category": "Drinks",
+        "description": "",
+        "price": "2.50",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Thai Ice Coffee",
+        "category": "Drinks",
+        "description": "",
+        "price": "3.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Thai Ice Tea",
+        "category": "Drinks",
+        "description": "",
+        "price": "3.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Fresh Lime Juice With Soda",
+        "category": "Drinks",
+        "description": "",
+        "price": "3.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Mango Juice",
+        "category": "Drinks",
+        "description": "",
+        "price": "3.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Coconut Juice",
+        "category": "Drinks",
+        "description": "",
+        "price": "3.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Orange Juice",
+        "category": "Drinks",
+        "description": "",
+        "price": "3.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Sparkling Water",
+        "category": "Drinks",
+        "description": "",
+        "price": "3.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Hot Tea Cup",
+        "category": "Drinks",
+        "description": "",
+        "price": "2.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Hot Tea Pot",
+        "category": "Drinks",
+        "description": "",
+        "price": "4.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Coconut Ice Cream",
+        "category": "Dessert",
+        "description": "",
+        "price": "4.00",
+        "spice": "0",
+        "img": "food/coconuticecream.jpg"
+    },
+
+    {
+        "name": "Mango Sticky Rice",
+        "category": "Dessert",
+        "description": "",
+        "price": "6.00",
+        "spice": "0",
+        "img": "food/mangostickyrice.jpg"
+    },
+
+    {
+        "name": "Lava Cake",
+        "category": "Dessert",
+        "description": "",
+        "price": "8.00",
+        "spice": "0",
+        "img": "food/lavacake.jpg"
+    },
+
+    {
+        "name": "Chocolate Mousse",
+        "category": "Dessert",
+        "description": "",
+        "price": "8.00",
+        "spice": "0",
+        "img": "food/mousse.jpg"
+    },
+
+    {
+        "name": "Import",
+        "category": "Beer",
+        "description": "Singha, Tsingtao, Sapporo, Tiger",
+        "price": "4.50",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Domestic",
+        "category": "Beer",
+        "description": "Bud Light, Coor Light",
+        "price": "3.50",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Draft Beer",
+        "category": "Beer",
+        "description": "Ask the server for option",
+        "price": "4.50",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Sake",
+        "category": "Beer",
+        "description": "",
+        "price": "7.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "All House Wine",
+        "category": "Wine",
+        "description": "Chardonnay, Cabernet Sauvignon, Merot, Resling",
+        "price": "6.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    
+    {
+        "name": "White Wine",
+        "category": "Wine",
+        "description": "Chardonnay Kendall Jackson, Pinot Gris Duck Pond, Riesling Chateau St. Michelle, Pinot Grisio House",
+        "price": "6.00 - 30.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Red Wine",
+        "category": "Wine",
+        "description": "Cabernet 14 hands, Pinot Noir Kendall Jackson",
+        "price": "7.00 - 30.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Long Island Iced Tea",
+        "category": "House Cocktails",
+        "description": "Vodka, Gin, Tequila, Rum, triple sec, Sour mix, and a splash of Coke",
+        "price": "9.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Lynsbrege Lemonade",
+        "category": "House Cocktails",
+        "description": "Jack Daniels, Triple Sec, Lemon Juice, Simple Syrub and Soda",
+        "price": "8.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Bangkok Mule",
+        "category": "House Cocktails",
+        "description": "Yazi Vodka Ginger Beer, Lime Juice, and Thai Spice",
+        "price": "8.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Tequila Sunrise",
+        "category": "House Cocktails",
+        "description": "Tequila, Orange Juice",
+        "price": "7.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Washington Black Apple Martini",
+        "category": "House Cocktails",
+        "description": "Black Whiskey, Sour Apple Schnapps, and Cranberry Juice",
+        "price": "8.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Mojito",
+        "category": "House Cocktails",
+        "description": "Muddles Fresh Mint, Silver Rum, Triple Sec, Lime Juice, top with Soda",
+        "price": "8.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Mai Tai",
+        "category": "House Cocktails",
+        "description": "Silver Rum, Amaretto, Pineapple Juice, Sour Mix, and Garnadines",
+        "price": "9.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Lemon Drop",
+        "category": "House Cocktails",
+        "description": "Citron Vodka, Simple syrub, Triple sec and lemon juice",
+        "price": "8.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Banana Banshee",
+        "category": "House Cocktails",
+        "description": "Banana Liquor, Creme De Cacao and Cream",
+        "price": "8.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Chambord Kamikaze",
+        "category": "House Cocktails",
+        "description": "Viscova Vodka, Lime Juice, Triple Sec and Chambord",
+        "price": "9.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Oregon Apple",
+        "category": "House Cocktails",
+        "description": "Pendleton Whiskey, Sour Apple Schnapps, and Cranberry Juice",
+        "price": "8.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Yazitini",
+        "category": "House Cocktails",
+        "description": "Yazi Ginger Vodka, Tripple Sec, Cranberry Juice and Lime Juice",
+        "price": "8.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Saturn Martini",
+        "category": "House Cocktails",
+        "description": "Orange Vodka, Muddled Lemon, Simple Syrub,Sour Mix, and Touch of Chambord",
+        "price": "9.00",
+        "spice": "0",
+        "img": ""
+    },
+
+    {
+        "name": "Hot n’ Dirty Martini",
+        "category": "House Cocktails",
+        "description": "Pepper Vodka and Splash of Olive Juice",
+        "price": "8.00",
+        "spice": "0",
+        "img": ""
     }
 ]

@@ -61,7 +61,9 @@ const Category = ({category, foodImgData}) => (
   </div>
 )
 
-const Categories = ['Appetizers', 'Soups', 'Salads', 'Stir Fried', 'Curries', 'Noodles', 'Noodle Soups', 'Fried Rice', 'House Specials']
+const Categories = ['Appetizers', 'Soups', 'Salads', 'Stir Fried', 'Curries', 
+  'Noodles', 'Noodle Soups', 'Fried Rice', 'House Specials', 'Sides', 'Drinks',
+   'Dessert', 'Beer', 'Wine', 'House Cocktails']
 
 const MenuSection = ({foodImgData}) => (
   <Card>
