@@ -18,7 +18,7 @@ const IndexPage = ({data}) => (
       <div style={{margin: '0 15%'}}>
         <h2 style={{color: '#FFF'}}>We are bringing new Thai dishes, made with the freshest ingredients, to the South East of Vancouver, WA. </h2>
       </div>
-      <Link to="/"><Button primary>Menu</Button></Link>
+      <Link to="/menu"><Button primary>Menu</Button></Link>
       <Button>Reservations</Button>
       <div style={{margin: '5%'}}>
         <Socials iconSize={36}/>
