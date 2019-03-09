@@ -83,7 +83,7 @@ const Header = () => (
       <NavLinkContainer>
         <NavLink link="/" text="Home"/>
         <NavLink link="/menu" text="Menu"/>
-        <NavLink link="/" text="Reservations"/>
+        <NavLink link="/reservations" text="Reservations"/>
         <NavLink link="/" text="Contact Us"/>
         <NavLink link="/" text="About Us"/>
       </NavLinkContainer>
