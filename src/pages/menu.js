@@ -13,7 +13,7 @@ const Container = styled.div`
   text-align: center;
   padding: 20% 15%;
 
-  @media (max-width: 1080px) {
+  @media (max-width: 800px) {
     padding: 35% 15%;
   }
 `
