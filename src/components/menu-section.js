@@ -61,14 +61,10 @@ const Category = ({category, foodImgData}) => (
   </div>
 )
 
-const Categories = ['Appetizers', 'Soups', 'Salads', 'Stir Fried', 'Curries', 
-  'Noodles', 'Noodle Soups', 'Fried Rice', 'House Specials', 'Sides', 'Drinks',
-   'Dessert', 'Beer', 'Wine', 'House Cocktails']
-
-const MenuSection = ({foodImgData}) => (
+const MenuSection = ({foodImgData, categories}) => (
   <Card>
     <Fab/>
-    {Categories.map(cat => <Category category={cat} foodImgData={foodImgData}/>)}
+    {categories.map(cat => <Category category={cat} foodImgData={foodImgData}/>)}
   </Card>
 )
 

@@ -18,6 +18,10 @@ const Container = styled.div`
   }
 `
 
+const Categories = ['Appetizers', 'Soups', 'Salads', 'Stir Fried', 'Curries', 
+  'Noodles', 'Noodle Soups', 'Fried Rice', 'House Specials', 'Sides', 'Drinks',
+   'Dessert', 'Beer', 'Wine', 'House Cocktails']
+
 const MenuPage = ({data}) => {
   const { edges: foodImgData } = data.FoodImages
   return (
@@ -32,7 +36,7 @@ const MenuPage = ({data}) => {
         </Container>
       </div>
       <div id='mid'>
-        <MenuSection foodImgData={foodImgData}/>
+        <MenuSection foodImgData={foodImgData} categories={Categories}/>
       </div>
     </Layout>
   )
