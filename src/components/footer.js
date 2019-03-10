@@ -41,10 +41,10 @@ const SocialContainer = styled.div`
 const Footer = () => (
   <Foot>
     <div style={{textAlign: 'right'}}>
-      <SocialLink href="#"> <FaMapMarkerAlt/> </SocialLink>
+      <SocialLink href='https://www.google.com/maps/@45.6104283,-122.5002156,15z' target='_blank' rel='noopener noreferrer'> <FaMapMarkerAlt/> </SocialLink>
       <Text>1825 SE 164th Ave #101, Vancouver, WA 98683, USA</Text>
       <br/>
-      <SocialLink href="#"> <FaPhone/> </SocialLink>
+      <SocialLink href='tel:3608828887'> <FaPhone/> </SocialLink>
       <Text>+1 360-882-8887</Text>
     </div>
     <SocialContainer>
