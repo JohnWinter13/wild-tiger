@@ -24,7 +24,7 @@ const BarPage = ({data}) => {
   const { edges: foodImgData } = data.FoodImages
   return (
     <Layout>
-      <SEO title="Menu"/>
+      <SEO title="Bar"/>
       <div style={{width: '100%', minHeight: '100vh'}}>
         <Img style={{ position: "absolute", left: 0, top: 0, width: "100%", height: "100%", zIndex: "-1"}} sizes={data.file.childImageSharp.sizes}/>
         <Container>
