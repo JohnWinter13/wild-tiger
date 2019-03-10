@@ -61,9 +61,9 @@ const Category = ({category, foodImgData}) => (
   </div>
 )
 
-const MenuSection = ({foodImgData, categories}) => (
+const MenuSection = ({foodImgData, categories, noFab}) => (
   <Card>
-    <Fab/>
+    {!noFab && <Fab/>}
     {categories.map(cat => <Category category={cat} foodImgData={foodImgData}/>)}
   </Card>
 )
