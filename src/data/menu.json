@@ -852,5 +852,41 @@
         "price": "8.00",
         "spice": "0",
         "img": ""
+    },
+
+    {
+        "name": "Happy Hour Wine",
+        "category": "Happy Hour Drinks",
+        "description": "",
+        "price": "4.50",
+        "spice": "0",
+        "img": "food/wine.jpg"
+    },
+
+    {
+        "name": "All Draft Beers",
+        "category": "Happy Hour Drinks",
+        "description": "",
+        "price": "3.50",
+        "spice": "0",
+        "img": "food/beer.jpg"
+    },
+
+    {
+        "name": "Well Drinks",
+        "category": "Happy Hour Drinks",
+        "description": "",
+        "price": "4.50",
+        "spice": "0",
+        "img": "food/welldrinks.jpg"
+    },
+
+    {
+        "name": "Cocktail of the Day",
+        "category": "Happy Hour Drinks",
+        "description": "",
+        "price": "3.50",
+        "spice": "0",
+        "img": "food/cocktail.jpg"
     }
 ]
