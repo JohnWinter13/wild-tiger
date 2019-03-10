@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { FaInstagram, FaPinterest, FaTwitter, FaFacebookF, FaEnvelope, FaYelp } from 'react-icons/fa';
+import { FaInstagram, FaPinterest, FaFacebookF, FaEnvelope, FaYelp } from 'react-icons/fa';
 
 const SocialLink = styled.a`
   color: #FFF;
