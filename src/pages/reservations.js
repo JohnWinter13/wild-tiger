@@ -8,14 +8,12 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import GMap from '../components/gmap'
 import ReserveGrid from '../components/reserve-grid'
-import OpenTimes from '../components/open-times'
-import FoodToGo from '../components/food-to-go'
 
 const ReservationsPage = ({data}) => (
   <Layout>
     <SEO title="Reservations"/>
     <div style={{width: '100%', minHeight: '100vh', marginTop: '50px'}}>
-      <Img style={{position: "absolute", left: 0, top: 0, height: "100%", width: "100%", zIndex: "-1"}} sizes={data.file.childImageSharp.sizes}/>
+      <Img style={{position: "absolute", left: 0, top: 0, height: "100%", width: "100%", zIndex: "-1", position: 'fixed'}} sizes={data.file.childImageSharp.sizes}/>
       <div style={{textAlign: 'center', color: '#FFF', padding: '5% 0',}}>
         <h1 style={{fontFamily: 'Pacifico'}}>Reservations</h1>
         <h3>For reservations, please call us during operating hours</h3>
