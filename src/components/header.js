@@ -32,6 +32,7 @@ const NavLink = ({link, text}) => (
 )
 
 const NavContainer = styled.div`
+  padding: 0 50px 0 20px;
   @media (max-width: 1080px) {
     display: none;
   }
@@ -83,9 +84,8 @@ const Header = () => (
       <NavLinkContainer>
         <NavLink link="/" text="Home"/>
         <NavLink link="/menu" text="Menu"/>
+        <NavLink link="/bar" text="Bar"/>
         <NavLink link="/reservations" text="Reservations"/>
-        <NavLink link="/" text="Contact Us"/>
-        <NavLink link="/" text="About Us"/>
       </NavLinkContainer>
     </NavContainer>
   </Head>
