@@ -19,7 +19,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Wild Tiger Thai Restaurant & Bar`,
-        short_name: `Wild Tiger Thai`,
+        short_name: `Wild Tiger`,
         start_url: `/`,
         background_color: `#FFA500`,
         theme_color: `#FFA500`,
@@ -30,6 +30,6 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
+    'gatsby-plugin-offline',
   ],
 }
