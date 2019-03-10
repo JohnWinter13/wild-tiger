@@ -10,6 +10,7 @@ const Container = styled.form`
   padding: 30px;
   margin: 15px;
   color: #FFF;
+  font-family: sans-serif;
 `
 
 const Title = styled.h2`
