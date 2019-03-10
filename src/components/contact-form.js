@@ -25,7 +25,7 @@ const Field = styled.input`
 
 const MessageArea = styled.textarea`
   width: 100%;
-  max-width: 100%;
+  resize: none;
   border-radius: 5px;
   margin: 5px;
 `
